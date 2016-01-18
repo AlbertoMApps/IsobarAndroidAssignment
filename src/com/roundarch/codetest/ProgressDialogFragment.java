@@ -29,8 +29,7 @@ import android.view.KeyEvent;
         DialogInterface.OnKeyListener keyListener = new DialogInterface.OnKeyListener() {
 
             @Override
-            public boolean onKey(DialogInterface dialog, int keyCode,
-                                 KeyEvent event) {
+            public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
 
                 if( keyCode == KeyEvent.KEYCODE_BACK){
                     return true;
